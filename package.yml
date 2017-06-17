@@ -1,0 +1,19 @@
+name       : gst-python-0.10
+version    : 0.10.22
+release    : 1
+source     :
+    - https://gstreamer.freedesktop.org/src/gst-python/gst-python-0.10.22.tar.gz : 27a445e010918a5c1a987e30f47093bd6914b4223a383f2cdeeaab107c1172ec
+license    : LGPL-2.1
+component  : programming.python
+summary    : Python binding for gstreamer-0.10
+description: |
+    Python binding for gstreamer-0.10
+builddeps  :
+    - pkgconfig(gstreamer-plugins-base-0.10)
+    - pkgconfig(pygtk-2.0)
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install

@@ -1,0 +1,107 @@
+<PISI>
+    <Source>
+        <Name>gst-python-0.10</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>LGPL-2.1</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Python binding for gstreamer-0.10</Summary>
+        <Description xml:lang="en">Python binding for gstreamer-0.10
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>gst-python-0.10</Name>
+        <Summary xml:lang="en">Python binding for gstreamer-0.10</Summary>
+        <Description xml:lang="en">Python binding for gstreamer-0.10
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/_gst.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/audio.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/discoverer.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/discoverer.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/discoverer.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/jukebox.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/jukebox.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/jukebox.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/leveller.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/leveller.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/leveller.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/pygobject.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/pygobject.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/pygobject.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/sources.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/sources.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/sources.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/extend/utils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/interfaces.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/pbutils.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/tag.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gst-0.10/gst/video.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gstoption.so</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pygst.pth</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pygst.py</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstpython.so</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/defs/audio.defs</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/defs/base.defs</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/defs/gst-extrafuncs.defs</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/defs/gst-types.defs</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/defs/libs.defs</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/defs/pbutils.defs</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/defs/tag.defs</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/defs/video.defs</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/audio-controller.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/audioconcat.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/bps.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/cp.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/debugslider.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/decodebin.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/f2f.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/filesrc.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/fvumeter.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/gst-discover</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/gstfile.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/maemogst.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/mixer.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/pipeline-tester</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/play.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/remuxer.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/sinkelement.py</Path>
+            <Path fileType="data">/usr/share/gst-python/0.10/examples/vumeter.py</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>gst-python-0.10-devel</Name>
+        <Summary xml:lang="en">Development files for gst-python-0.10</Summary>
+        <Description xml:lang="en">Python binding for gstreamer-0.10
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">gst-python-0.10</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-06-17</Date>
+            <Version>0.10.22</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
